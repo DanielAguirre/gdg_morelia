@@ -9,6 +9,7 @@
 <body>
 	<div id="login">		
 		{{ Form::open(array('url' => 'foo/bar')) }}	
+			{{HTML::image('assets/img/gdg-morelia-2.png')}}
 			<div>
 			{{Form::label("",'' ,array('class'=>'icon-user'))}}
 			{{Form::text('username',null,array('placeholder'=>'Usuario'))}}
