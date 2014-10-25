@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>@yield('title', 'GDG Morelia')</title>
 	<link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.2/normalize.css">
-	{{ HTML::style('assets/css/stylus/estilo.css')}}
+	{{ HTML::style('assets/css/estilo.css')}}
 </head>
 <body>
 	<div id="contenedor">

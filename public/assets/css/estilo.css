@@ -1,0 +1,79 @@
+body {
+  background: #fff;
+  font-family: 'Helvetica', sans-serif;
+}
+body div#contenedor {
+  padding: 0 2.5%;
+  width: 95%;
+}
+body div#contenedor div.buscar {
+  width: 100%;
+}
+body div#contenedor div.buscar a {
+  color: #808080;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  right: 5%;
+  text-decoration: none;
+}
+body div#contenedor div.buscar div#buscar {
+  display: inline-block;
+  height: 36px;
+  background: #3f51b5;
+}
+body div#contenedor div.buscar div#buscar input {
+  background: #3f51b5;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  padding: 0 2.5%;
+  border: 0;
+}
+body div#contenedor div.buscar div#buscar input::-webkit-input-placeholder {
+  color: #fff;
+}
+body div#contenedor div.buscar div#buscar input::-moz-placeholder {
+  color: #fff;
+}
+body div#contenedor div.buscar div#buscar input:-ms-input-placeholder {
+  color: #fff;
+}
+body div#contenedor div#contenido {
+  text-align: center;
+}
+body div#contenedor div#contenido h2#descripcion {
+  width: 60%;
+  margin-left: 20%;
+  padding-bottom: 5px;
+  font-size: 27px;
+  letter-spacing: 0.13pt;
+  font-weight: 100;
+  border-bottom: 6px solid #e51c23;
+}
+body div#publicaciones {
+  width: 100%;
+}
+body div#publicaciones div.post {
+  display: inline-block;
+  vertical-align: top;
+  width: 29%;
+  text-align: center;
+  margin-left: 3.2%;
+  border-bottom: 3px solid #e51c23;
+}
+body div#publicaciones div.post img {
+  width: 100%;
+  height: 225px;
+}
+body div#publicaciones div.post a h2.titulo {
+  color: #e51c23;
+}
+body div#publicaciones div.post h3.categoria,
+body div#publicaciones div.post p {
+  color: #808080;
+}
+body div#publicaciones div.post a {
+  color: #e51c23;
+  text-decoration: none;
+}
