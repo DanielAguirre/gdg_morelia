@@ -13,4 +13,9 @@
 
 Route::get('/', ['as' => 'home','uses' =>'HomeController@index']);
 
-Route::get('/admin', ['as' => 'admin', 'uses'=> 'AdminController@login']);												 
+Route::get('/login', ['as' => 'login', 'uses'=> 'AdminController@login']);
+
+Route::get('/admin', ['as' => 'admin', 'uses'=> 'AdminController@admin']);
+
+Route::get('/post', ['as' => 'post','uses' =>'PostController@post']);
+
